@@ -1,9 +1,12 @@
+package Exercises.Solutions;
+
 // Chapter 5 Question 17
 
-import java.awt.Color;
+//import java.awt.Color;
 
 /** Represents a inflatable balloon
  */
+/*
 public class InflatableBalloon extends Balloon
 {
   public InflatableBalloon()
@@ -25,3 +28,4 @@ public class InflatableBalloon extends Balloon
     setRadius(r);
   }
 }
+*/

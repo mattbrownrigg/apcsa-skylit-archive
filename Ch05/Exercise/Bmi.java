@@ -17,6 +17,10 @@ import java.text.DecimalFormat;
 public class Bmi extends JFrame
   implements ActionListener
 {
+  /**
+   *
+   */
+  private static final long serialVersionUID = 1L;
   JTextField inputLbs, inputInches, displayBmi;
 
   public Bmi()

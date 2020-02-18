@@ -1,5 +1,5 @@
 // Chapter 5 Question 27
-
+/*
 // ________________________________________________
 
 import java.awt.Color;
@@ -60,3 +60,4 @@ public class Rainbow extends JPanel
     w.setVisible(true);
   }
 }
+*/

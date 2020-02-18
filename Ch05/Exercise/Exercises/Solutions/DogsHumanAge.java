@@ -1,3 +1,5 @@
+package Exercises.Solutions;
+
 // Chapter 5 Question 23
 
 import java.util.Scanner;

@@ -164,6 +164,7 @@ public class Maine
         System.out.println("\n" + "--------------------------------------------");
         System.out.println();
         System.out.println("Thank you for using User Friendliness OS™ v0.7");
+        kb.close();
     }
     
     public static String removeDashes(String str)
