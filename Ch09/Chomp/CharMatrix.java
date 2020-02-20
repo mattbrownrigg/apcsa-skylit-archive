@@ -5,8 +5,7 @@ import java.util.Arrays;
 public class CharMatrix
 {
   // Fields:
-  ________________________________________________
-  ...
+  char[][] grid;
 
   /**
    * Constructor: creates a grid with dimensions rows, cols,
@@ -14,8 +13,9 @@ public class CharMatrix
    */
   public CharMatrix(int rows, int cols)
   {
-    char[][] grid = new char[rows][cols];
-    Arrays.fill(
+    this.grid = new char[rows][cols];
+    for (char[] row : grid) 
+        Arrays.fill(row, ' '); 
   }
 
   /**
@@ -24,8 +24,9 @@ public class CharMatrix
    */
   public CharMatrix(int rows, int cols, char fill)
   {
-    ________________________________________________
-    ...
+      this.grid = new char[rows][cols];
+      for (char[] row : grid) 
+        Arrays.fill(row, fill); 
   }
 
   /**
@@ -33,8 +34,10 @@ public class CharMatrix
    */
   public int numRows()
   {
-    ________________________________________________
-    ...
+    int count = 0;
+    for(char[] row : grid)
+        count++;
+    return count;
   }
 
   /**
@@ -42,8 +45,10 @@ public class CharMatrix
    */
   public int numCols()
   {
-    ________________________________________________
-    ...
+      int count = 0;
+      for(int i = 0; i < grid[0].length; i++)
+        count++;
+      return count;
   }
 
   /**
@@ -51,8 +56,7 @@ public class CharMatrix
    */
   public char charAt(int row, int col)
   {
-    ________________________________________________
-    ...
+    return grid[row][col];
   }
 
   /**
@@ -60,8 +64,7 @@ public class CharMatrix
    */
   public void setCharAt(int row, int col, char ch)
   {
-    ________________________________________________
-    ...
+    grid[row][col] = ch;
   }
 
   /**
@@ -70,8 +73,10 @@ public class CharMatrix
    */
   public boolean isEmpty(int row, int col)
   {
-    ________________________________________________
-    ...
+    if(grid[row][col] == ' ')
+        return true;
+    else
+        return false;
   }
 
   /**
@@ -81,8 +86,9 @@ public class CharMatrix
    */
   public void fillRect(int row0, int col0, int row1, int col1, char fill)
   {
-    ________________________________________________
-    ...
+    for(int r = row0; r <= row1; r++)
+        for(int c = col0; c <= col1; c++)
+            grid[r][c] = fill;
   }
 
   /**
@@ -92,8 +98,9 @@ public class CharMatrix
    */
   public void clearRect(int row0, int col0, int row1, int col1)
   {
-    ________________________________________________
-    ...
+    for(int r = row0; r <= row1; r++)
+        for(int c = col0; c <= col1; c++)
+            grid[r][c] = ' ';
   }
 
   /**
@@ -101,8 +108,11 @@ public class CharMatrix
    */
   public int countInRow(int row)
   {
-    ________________________________________________
-    ...
+    int count = 0;
+    for(int r = 0; r < grid[row].length; r++)
+        if(!(grid[row][r] == ' '))
+            count++;
+    return count;
   }
 
   /**
@@ -110,7 +120,10 @@ public class CharMatrix
    */
   public int countInCol(int col)
   {
-    ________________________________________________
-    ...
+    int count = 0;
+    for(int c = 0; c < grid.length; c++)
+        if(!(grid[c][col] == ' '))
+            count++;
+    return count;
   }
 }
