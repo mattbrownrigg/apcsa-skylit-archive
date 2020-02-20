@@ -1,4 +1,4 @@
-import java.utils.Arrays;
+import java.util.Arrays;
 
 public class ArrayFRQ
 {
@@ -38,7 +38,7 @@ public class ArrayFRQ
         {
             for(int j = i + 1; j < arr2D.length; j++ )
             {
-                if(Array.toString(arr2D[i].equals(Array.toString(arr2D(j)))))
+                if(Arrays.toString(arr2D[i]).equals(Arrays.toString(arr2D[j])))
                     return false;
             }
                 
