@@ -7,7 +7,7 @@ public class ArrayFRQ
         int[][] arr = {{1, 2, 3, 4},
                         {1, 2, 3, 4},
                         {3,4,4,4}};
-        isDiverse(arr);
+        System.out.println(isDiverse(arr));
     }
 
     public static int sumArray(int[] arr)
