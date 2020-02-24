@@ -77,11 +77,51 @@ public class Fraction
   {
     return new Fraction(num * m, denom);
   }
-
+  
+  public Fraction divide(Fraction other)
+  {
+      try
+      {
+          int newNum = num / other.num;
+          int newDenom = denom / other.denom;
+          return new Fraction(newNum, newDenom);
+      }
+      catch(IllegalArgumentException e)
+      {
+          
+          throw new IllegalArgumentException("Error: division by zero");
+      }
+      
+  }
+  
+  public Fraction divide(int m)
+  {
+      try
+        {
+            return new Fraction(num / m, denom);
+        }
+        catch(IllegalArgumentException e)
+        {
+            throw new IllegalArgumentException("Error: division by zero");
+        }
+  }
+  
+  public Fraction subtract(Fraction other)
+  {
+      int newNum = num * other.denom - denom * other.num;
+      int newDenom = denom * other.denom;
+      return new Fraction(newNum, newDenom);
+  }
+  
+  public Fraction subtract(int m)
+  {
+      return new Fraction(num - m * denom, denom);
+  }
+  
   // Returns the value of this fraction as a double
   public double getValue()
   {
-    return (double)num / (double)denom;
+      return (double)num / (double)denom;
   }
   
   // Returns a string representation of this fraction
