@@ -68,10 +68,7 @@ public class Rectangle
     
     public boolean isSquare()
     {
-        if(this.h == this.w)
-            return true;
-        else
-            return false;
+        return this.h == this.w;
     }
     
     public void quadratize()
