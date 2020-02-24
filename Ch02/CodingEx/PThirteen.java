@@ -1,4 +1,4 @@
-
+package Ch02.CodingEx;
 /**
  * Write a description of class PThirteen here.
  *
@@ -19,5 +19,7 @@ public class PThirteen
        int choice = keytext.nextInt();
        
        System.out.println(Integer.toString(choice) + " * 2 = " + Integer.toString(choice * 2));
+
+       keytext.close();
    }
 }

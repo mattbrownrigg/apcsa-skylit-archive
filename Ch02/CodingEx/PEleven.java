@@ -1,3 +1,4 @@
+package Ch02.CodingEx;
 
 /**
  * Write a description of class PEleven here.
@@ -16,6 +17,7 @@ public class PEleven
        
        System.out.println("I think " + movie + " is a terrible movie!");
        System.out.println("Just Kidding! I like " + movie +" , too.");
+       kboard.close();
        
    }
 }

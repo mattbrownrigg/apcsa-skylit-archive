@@ -1,3 +1,5 @@
+package Ch04.BalloonAttempts.BalloonDraw.BalloonDraw;
+
 /**
  * Represents a balloon in the BalloonDraw program.
  * Author: Willy Bolly

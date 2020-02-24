@@ -1,3 +1,5 @@
+package Ch27.Goofenspiel.Solution;
+
 /**
  * Display of the Goofenspeil game
  */

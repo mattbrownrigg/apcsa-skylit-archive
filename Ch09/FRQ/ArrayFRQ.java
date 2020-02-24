@@ -1,3 +1,5 @@
+package Ch09.FRQ;
+
 import java.util.Arrays;
 
 public class ArrayFRQ

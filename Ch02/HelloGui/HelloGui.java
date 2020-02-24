@@ -1,3 +1,5 @@
+package Ch02.HelloGui;
+
 // This program displays a label "Hello, GUI!"
 
 import java.awt.Color;

@@ -1,3 +1,5 @@
+package Ch02.Exercises.Solutions;
+
 // Chapter 2 Question 9
 
 public class PrintFace

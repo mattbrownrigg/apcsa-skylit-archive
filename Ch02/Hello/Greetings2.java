@@ -1,3 +1,5 @@
+package Ch02.Hello;
+
 /**
  * This program prompts the user to enter his or her
  * first name and last name and displays a greeting message.

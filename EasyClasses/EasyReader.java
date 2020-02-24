@@ -1,3 +1,5 @@
+package EasyClasses;
+
 import java.io.InputStreamReader;
 import java.io.FileReader;
 import java.io.BufferedReader;

@@ -1,3 +1,5 @@
+package Ch09.Fortunes.Fortune;
+
 // Fortune Teller
 
 import java.awt.Color;
@@ -7,6 +9,9 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
+
+import Ch03.Exercises.EasySound;
+
 import javax.swing.JButton;
 
 public class FortuneTeller extends JFrame

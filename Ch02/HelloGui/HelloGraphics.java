@@ -1,3 +1,5 @@
+package Ch02.HelloGui;
+
 // This program displays simple graphics
 
 import java.awt.Graphics;

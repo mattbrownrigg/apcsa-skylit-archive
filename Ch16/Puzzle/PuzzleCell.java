@@ -1,3 +1,5 @@
+package Ch16.Puzzle;
+
 /**
  * Represents a panel for one cell in the Puzzle program.
  */
@@ -35,8 +37,8 @@ public class PuzzleCell extends JPanel
 
   public void paintComponent(Graphics g)
   {
-    ___________________________________
-    ...
+    //___________________________________
+    //...
   }
 
   private void drawPuzzle(Graphics g)

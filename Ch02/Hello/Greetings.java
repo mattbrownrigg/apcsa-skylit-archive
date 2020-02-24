@@ -1,8 +1,8 @@
+package Ch02.Hello;
+
 /**
- * This program expects two command-line arguments
- * -- a person's first name and last name.
- * For example:
- * C:\mywork> java Greetings Annabel Lee
+ * This program expects two command-line arguments -- a person's first name and
+ * last name. For example: C:\mywork> java Greetings Annabel Lee
  */
 public class Greetings
 {

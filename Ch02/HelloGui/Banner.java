@@ -1,3 +1,5 @@
+package Ch02.HelloGui;
+
 /**
  * This program displays a message that moves horizontally
  * across the window.

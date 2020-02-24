@@ -1,3 +1,5 @@
+package EasyClasses;
+
 // This program demonstrates the use of EasyReader, EasyWriter,
 // EasySound, and EasyDate.
 

@@ -1,5 +1,7 @@
+package Ch02.Hello;
+
 /**
- * Displays a "Hello World!" message on the screen 
+ * Displays a "Hello World!" message on the screen
  */
 public class HelloWorld
 {

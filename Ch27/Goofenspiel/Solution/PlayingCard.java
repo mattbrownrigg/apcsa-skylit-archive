@@ -1,3 +1,5 @@
+package Ch27.Goofenspiel.Solution;
+
 /**
  * Represents a displayable playing card
  */
@@ -10,6 +12,10 @@ import javax.swing.ImageIcon;
 
 public class PlayingCard extends JPanel
 {
+  /**
+   *
+   */
+  private static final long serialVersionUID = 1L;
   private final ImageIcon picture;
   private final int rank;
   private boolean active;

@@ -1,3 +1,4 @@
+package Ch09.Eggersize;
 
 /**
  * Write a description of class Eggersizes here.
@@ -50,6 +51,8 @@ public class Eggersizes
         System.out.println(playerChoice + " = " + computeScore(" " + playerChoice));
         
         System.out.println("The max positive is: " + positiveMax(m));
+
+        kb.close();
     }
     
     public static void swapFirstAndLast (int[] swapper)
@@ -109,4 +112,5 @@ public class Eggersizes
         }
         return max;
     }
+    
 }

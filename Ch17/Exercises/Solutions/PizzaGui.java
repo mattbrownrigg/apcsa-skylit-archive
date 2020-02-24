@@ -1,3 +1,5 @@
+package Ch17.Exercises.Solutions;
+
 // Chapter 17 Question 7
 
 import java.awt.Color;
