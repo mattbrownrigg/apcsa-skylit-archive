@@ -1,3 +1,4 @@
+package Ch09.PictureLab;
 
 import java.awt.*;
 import java.awt.event.*;

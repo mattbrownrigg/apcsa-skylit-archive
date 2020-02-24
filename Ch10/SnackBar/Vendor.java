@@ -1,6 +1,8 @@
+package Ch10.SnackBar;
+
 /**
- * This class implements a vendor that sells one kind
- * of items. A vendor carries out sales transactions.
+ * This class implements a vendor that sells one kind of items. A vendor carries
+ * out sales transactions.
  */
 public class Vendor
 {

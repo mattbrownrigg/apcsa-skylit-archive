@@ -1,3 +1,5 @@
+package Ch09.PictureLab;
+
 import java.awt.*;
 import java.awt.font.*;
 import java.awt.geom.*;

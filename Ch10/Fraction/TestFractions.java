@@ -1,6 +1,7 @@
+package Ch10.Fraction;
+
 /**
- * This is a test class for the Fraction class
- * Author: Blair
+ * This is a test class for the Fraction class Author: Blair
  */
 
 public class TestFractions

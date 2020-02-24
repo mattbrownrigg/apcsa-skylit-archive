@@ -1,3 +1,4 @@
+package Ch10.Exercises.Exercise;
 
 /**
  * Write a description of class Puzzle here.

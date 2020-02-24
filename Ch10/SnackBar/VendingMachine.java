@@ -1,3 +1,5 @@
+package Ch10.SnackBar;
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.GridLayout;

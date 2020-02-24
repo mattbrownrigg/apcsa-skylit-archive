@@ -1,3 +1,5 @@
+package Ch10.Exercises;
+
 // This class implements a Celsius-Fahrenheit converter
 
 import java.awt.Color;

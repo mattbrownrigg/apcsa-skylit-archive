@@ -1,3 +1,5 @@
+package Ch10.SnackBar;
+
 /**
  * The SnackBar program models several "vending machines"
  */

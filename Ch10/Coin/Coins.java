@@ -1,3 +1,4 @@
+package Ch10.Coin;
 
 /**
  * Write a description of class Coins here.

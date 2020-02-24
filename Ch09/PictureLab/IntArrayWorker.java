@@ -1,3 +1,5 @@
+package Ch09.PictureLab;
+
 public class IntArrayWorker
 {
   /** two dimensional matrix */

@@ -1,3 +1,5 @@
+package Ch09.PictureLab;
+
 public class IntArrayWorkerTester
 {
   /** method to test setMatrix */

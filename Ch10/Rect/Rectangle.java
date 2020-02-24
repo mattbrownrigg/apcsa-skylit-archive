@@ -1,3 +1,4 @@
+package Ch10.Rect;
 
 /**
  * Write a description of class Rectangle here.
