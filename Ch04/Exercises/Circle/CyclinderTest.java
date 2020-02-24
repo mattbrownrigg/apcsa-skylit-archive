@@ -25,7 +25,7 @@ public class CyclinderTest
         
         System.out.println("Your volume is: " + pCylinder.getVolume());
         
-        
+        kboard.close();
     }
     
 }

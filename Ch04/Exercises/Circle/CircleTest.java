@@ -23,7 +23,7 @@ public class CircleTest
         
         System.out.println("Your area is: " + pCircle.getArea());
         
-        
+        kboard.close();
     }
     
 }
